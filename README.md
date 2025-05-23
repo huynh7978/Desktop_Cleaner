@@ -13,7 +13,10 @@ Detailed logging - Shows exactly what's being moved where<br />
 
 📁 File Categories<br />
 The script organizes files into the following categories:<br />
-CategoryFile TypesDocuments.txt, .doc, .docx, .pdf, .rtf, .odt, .xls, .xlsx, .ppt, .pptx, .csvImages.jpg, .jpeg, .png, .gif, .bmp, .tiff, .svg, .webp, .icoVideos.mp4, .avi, .mkv, .mov, .wmv, .flv, .webm, .m4vAudio.mp3, .wav, .flac, .aac, .ogg, .wma, .m4aInstallers.exe, .msi, .dmg, .pkg, .deb, .rpm (with installer keywords)Shortcuts.lnk, .urlFoldersAny directory on the desktopOther FilesEverything else that doesn't fit the above categories
+Category | File Extensions | Description |
+:page_facing_up:<br /> 
+Documents| .txt, .doc, .docx, .pdf, .rtf, .odt, .xls, .xlsx, .ppt, .pptx, .csv
+Text documents, spreadsheets, presentations:framed_picture: Images.jpg, .jpeg, .png, .gif, .bmp, .tiff, .svg, .webp, .icoPictures and graphics:movie_camera: Videos.mp4, .avi, .mkv, .mov, .wmv, .flv, .webm, .m4vVideo files:musical_note: Audio.mp3, .wav, .flac, .aac, .ogg, .wma, .m4aMusic and sound files:wrench: Installers.exe, .msi, .dmg, .pkg, .deb, .rpmApplication installers:link: Shortcuts.lnk, .urlDesktop shortcuts:file_folder: FoldersN/AAny directory on the desktop:clipboard: Other FilesAll othersFiles that don't fit other categories
 🔧 Installation
 Prerequisites
 
