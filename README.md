@@ -25,7 +25,7 @@ The script organizes files into the following categories:<br />
 | :clipboard: **Other Files** | All others | Files that don't fit other categories |
 
 🔧 **Installation**<br />
-**Prerequisites**<br />
+- **Prerequisites**<br />
 
 - Python 3.6 or higher
 - No additional packages required (uses built-in modules)
@@ -33,28 +33,32 @@ The script organizes files into the following categories:<br />
 Setup<br />
 
 Clone or download the script
-bashgit clone https://github.com/yourusername/desktop-cleanup.git
-cd desktop-cleanup
-
+```bash``` 
+```
+git clone https://github.com/yourusername/Desktop-Cleaner.git
+cd Desktop-cleaner
+```
 Run the script
-bashpython desktop_cleanup.py
+```bash```
+```python desktop_cleanup.py```
 
-💻 Usage
-Basic Usage
-bashpython desktop_cleanup.py
-What Happens When You Run It
+💻**Usage**
+**Basic Usage**
+```bash```
+```python/python3 desktop_cleanup.py```
+**How It Works**
 
-Desktop Detection: The script automatically finds your desktop location
+Desktop Detection: Automatically finds your desktop location
 
-First tries OneDrive Desktop (~/OneDrive/Desktop)
-Falls back to regular Desktop (~/Desktop)
+:white_check_mark: First tries OneDrive Desktop (~/OneDrive/Desktop)
+:white_check_mark: Falls back to regular Desktop (~/Desktop)
 
 
-Cleanup Directory Creation: Creates a new folder called cleanup (or cleanup_1, cleanup_2, etc.)
-File Processing: Scans all desktop items and moves them to appropriate subdirectories
-Progress Reporting: Shows real-time progress of what's being moved
+Cleanup Directory Creation: Creates a new folder called cleanup
+File Processing: Scans and categorizes all desktop items
+Progress Reporting: Shows real-time progress
 
-📊 Output Structure
+📊 **Output Structure**
 After running, your desktop will contain a new organized folder:
 Desktop/
 └── cleanup/
@@ -66,22 +70,28 @@ Desktop/
     ├── Folders/
     ├── Shortcuts/
     └── Other_Files/
-🛡️ Safety Features
+    
+🛡️ **Safety Features**
 
-Skips the cleanup directory - Won't move the folder it creates
-Skips the script itself - Won't move the cleanup script
-Handles permissions errors - Gracefully handles files that can't be moved
-Duplicate prevention - Automatically renames files to prevent overwrites
-Non-destructive - Only moves files, never deletes them
+Skips the cleanup directory - Won't move the folder it creates<br />
+Skips the script itself - Won't move the cleanup script<br />
+Handles permissions errors - Gracefully handles files that can't be moved<br />
+Duplicate prevention - Automatically renames files to prevent overwrites<br />
+Non-destructive - Only moves files, never deletes them<br />
 
 🎯 Smart Installer Detection
 The script uses intelligent detection for installer files by checking:
 
-File extensions: .exe, .msi, .dmg, .pkg, etc.
-Filename keywords: setup, install, installer, steam, discord, chrome, firefox, vlc, zoom, etc.
-Combined logic: Must have installer extension AND contain relevant keywords
-
-📝 Example Output
+File extensions: ```.exe```, ```.msi```, ```.dmg```, ```.pkg```, etc.
+```
+installer_keywords = [
+    'setup', 'install', 'installer', 'steam', 'discord', 'chrome', 'firefox', 
+    'vlc', 'zoom', 'skype', 'spotify', 'office', 'adobe', 'winrar', '7zip',
+    'nvidia', 'amd', 'intel', 'driver', 'update', 'launcher', 'wallpaper',
+    'visual studio', 'intellij', 'mcafee'
+]
+```
+📝 **Example Output**<br />
 Desktop path: C:\Users\YourName\OneDrive\Desktop
 
 Found 25 items on desktop:
