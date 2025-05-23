@@ -26,17 +26,14 @@ The script organizes files into the following categories:<br />
 
 # 🔧 **Installation**<br />
 - **Prerequisites**<br />
-
-- Python 3.6 or higher
-- No additional packages required (uses built-in modules)
-
-Setup<br />
-
-Clone or download the script
-```
-git clone https://github.com/yourusername/Desktop-Cleaner.git
-cd Desktop-cleaner
-```
+    - Python 3.6 or higher
+    - No additional packages required (uses built-in modules)
+- Setup<br />
+    Clone or download the script
+    ```
+    git clone https://github.com/yourusername/Desktop-Cleaner.git
+    cd Desktop-cleaner
+    ```
 # 💻**Usage**
 **Basic Usage**
 ```python/python3 desktop_cleanup.py```
@@ -53,28 +50,27 @@ File Processing: Scans and categorizes all desktop items
 Progress Reporting: Shows real-time progress
 
 📊 **Output Structure**
-After running, your desktop will contain a new organized folder:
-Desktop/
-└── cleanup/
-    ├── Documents/
-    ├── Images/
-    ├── Videos/
-    ├── Audio/
-    ├── Installers/
-    ├── Folders/
-    ├── Shortcuts/
-    └── Other_Files/
+After running, your desktop will contain a new organized folder:<br />
+📁 C:\Users\YourName\OneDrive\Desktop\cleanup<br />
+├── 🗂️  Folders (My Projects, etc.)<br />
+├── 🔧 Installers (Steam, Discord, etc.)<br />
+├── 📄 Documents (PDFs, Word docs, etc.)<br />
+├── 🖼️  Images (Photos, screenshots, etc.)<br />
+├── 🎥 Videos<br />
+├── 🎵 Audio<br />
+├── 🔗 Shortcuts (.lnk files)<br />
+└── 📋 Other Files<br />
     
-# 🛡️ **Safety Features**
+# 🛡️ **Safety Features**<br />
 
 Skips the cleanup directory - Won't move the folder it creates<br />
-Skips the script itself - Won't move the cleanup script<br />
+Skips the script itself - Won't move the cleanup script<br /><br />
 Handles permissions errors - Gracefully handles files that can't be moved<br />
 Duplicate prevention - Automatically renames files to prevent overwrites<br />
 Non-destructive - Only moves files, never deletes them<br />
 
-# **🎯 Smart Installer Detection**
-The script uses intelligent detection for installer files by checking:
+# **🎯 Smart Installer Detection**<br />
+The script uses intelligent detection for installer files by checking:<br />
 
 File extensions: ```.exe```, ```.msi```, ```.dmg```, ```.pkg```, etc.
 ```
@@ -96,17 +92,17 @@ Found 25 items on desktop:
 
 Starting cleanup process...
 
-Processing: important_document.pdf
-  -> Moving to Documents: important_document.pdf
+Processing: important_document.pdf<br />
+  -> Moving to Documents: important_document.pdf<br />
 
-Processing: vacation_photo.jpg
-  -> Moving to Images: vacation_photo.jpg
+Processing: vacation_photo.jpg<br />
+  -> Moving to Images: vacation_photo.jpg<br />
 
-Processing: setup_steam.exe
-  -> Moving to Installers: setup_steam.exe
+Processing: setup_steam.exe<br />
+  -> Moving to Installers: setup_steam.exe<br />
 
-Processing: My Projects
-  -> Moving folder to Folders: My Projects
+Processing: My Projects<br />
+  -> Moving folder to Folders: My Projects<br />
 
 ==================================================
 DESKTOP CLEANUP COMPLETED!
@@ -115,16 +111,16 @@ Total items processed: 25
 Items moved: 23
 Items skipped: 2
 
-All your desktop items are now organized in:
-📁 C:\Users\YourName\OneDrive\Desktop\cleanup
-├── 🗂️  Folders (phone stuff, Games, etc.)
-├── 🔧 Installers (Steam, Discord, etc.)
-├── 📄 Documents
-├── 🖼️  Images
-├── 🎥 Videos
-├── 🎵 Audio
-├── 🔗 Shortcuts (.lnk files)
-└── 📋 Other Files
+All your desktop items are now organized in:<br />
+📁 C:\Users\YourName\OneDrive\Desktop\cleanup<br />
+├── 🗂️  Folders (phone stuff, Games, etc.)<br />
+├── 🔧 Installers (Steam, Discord, etc.)<br />
+├── 📄 Documents<br />
+├── 🖼️  Images<br />
+├── 🎥 Videos<br />
+├── 🎵 Audio<br />
+├── 🔗 Shortcuts (.lnk files)<br />
+└── 📋 Other Files<br />
 
 🎉 Your desktop should now be completely clean!
 ⚠️ Important Notes
@@ -134,18 +130,14 @@ File permissions: Some files may be skipped if they're currently in use or lack 
 System files: The script avoids moving system files and shortcuts to critical applications
 Undo process: To restore files, simply move them back from the cleanup folder
 
-🐛 Troubleshooting
+#🐛 Troubleshooting
 Common Issues
 Desktop not found: If the script can't find your desktop, it will show an error. Make sure you're running it on a system with a standard desktop folder structure.
 Permission errors: Some files may be skipped due to permission issues. This is normal and safe - the script will continue with other files.
-Files still on desktop: Check the output log to see if files were skipped and why.
-🤝 Contributing
-Feel free to submit issues or suggestions for improvements. Common enhancement ideas:
+Files still on desktop: Check the output log to see if files were skipped and why.<br />
 
-Additional file type categories
-Custom organization rules
-GUI interface
-Scheduling capabilities
+#🤝 Contributing<br />
+Feel free to submit issues or suggestions for improvements. 
 
-📄 License
+#📄 License
 This script is provided as-is for personal use. Feel free to modify and distribute as needed.
