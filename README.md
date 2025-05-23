@@ -2,7 +2,7 @@
 
 automatically organizes your cluttered desktop by categorizing and moving files into organized folders.<br />
 
-🚀 Features<br />
+🚀**Features**<br />
 Automatic file categorization - Sorts files by type (documents, images, videos, audio, etc.)<br />
 Smart installer detection - Identifies and separates installer files from regular applications<br />
 Folder organization - Moves desktop folders into a dedicated directory<br />
@@ -11,7 +11,7 @@ Cross-platform support - Works on Windows (OneDrive Desktop) and standard deskto
 Safe operation - Skips system files and the script itself<br />
 Detailed logging - Shows exactly what's being moved where<br />
 
-📁 File Categories<br />
+📁 **File Categories**<br />
 The script organizes files into the following categories:<br />
 | Category | File Extensions | Description |
 |----------|----------------|-------------|
@@ -24,8 +24,8 @@ The script organizes files into the following categories:<br />
 | :file_folder: **Folders** | N/A | Any directory on the desktop |
 | :clipboard: **Other Files** | All others | Files that don't fit other categories |
 
-🔧 Installation<br />
-Prerequisites<br />
+🔧 **Installation**<br />
+**Prerequisites**<br />
 
 - Python 3.6 or higher
 - No additional packages required (uses built-in modules)
