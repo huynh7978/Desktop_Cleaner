@@ -84,11 +84,11 @@ installer_keywords = [
 # 📝 **Example Output**<br />
 Desktop path: C:\Users\YourName\OneDrive\Desktop
 
-Found 25 items on desktop:
-  - important_document.pdf
-  - vacation_photo.jpg
-  - setup_steam.exe
-  - My Projects
+Found 4 items on desktop:
+  - important_document.pdf<br />
+  - vacation_photo.jpg<br />
+  - setup_steam.exe<br />
+  - My Projects<br />
 
 Starting cleanup process...
 
@@ -107,9 +107,9 @@ Processing: My Projects<br />
 ==================================================
 DESKTOP CLEANUP COMPLETED!
 ==================================================
-Total items processed: 25
-Items moved: 23
-Items skipped: 2
+Total items processed: 4
+Items moved: 4
+Items skipped: 0
 
 All your desktop items are now organized in:<br />
 📁 C:\Users\YourName\OneDrive\Desktop\cleanup<br />
