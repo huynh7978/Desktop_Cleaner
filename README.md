@@ -124,7 +124,7 @@ All your desktop items are now organized in:<br />
 
 🎉 Your desktop should now be completely clean!<br />
 
-⚠️ Important Notes<br />
+# **⚠️ Important Notes**<br />
 
 Backup recommended: While the script is safe, consider backing up important files first<br />
 File permissions: Some files may be skipped if they're currently in use or lack permissions<br />
