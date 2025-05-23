@@ -13,21 +13,31 @@ Detailed logging - Shows exactly what's being moved where<br />
 
 📁 File Categories<br />
 The script organizes files into the following categories:<br />
-Category | File Extensions | Description |
-:page_facing_up:<br /> 
-Documents| .txt, .doc, .docx, .pdf, .rtf, .odt, .xls, .xlsx, .ppt, .pptx, .csv
-Text documents, spreadsheets, presentations:framed_picture: Images.jpg, .jpeg, .png, .gif, .bmp, .tiff, .svg, .webp, .icoPictures and graphics:movie_camera: Videos.mp4, .avi, .mkv, .mov, .wmv, .flv, .webm, .m4vVideo files:musical_note: Audio.mp3, .wav, .flac, .aac, .ogg, .wma, .m4aMusic and sound files:wrench: Installers.exe, .msi, .dmg, .pkg, .deb, .rpmApplication installers:link: Shortcuts.lnk, .urlDesktop shortcuts:file_folder: FoldersN/AAny directory on the desktop:clipboard: Other FilesAll othersFiles that don't fit other categories
-🔧 Installation
-Prerequisites
+| Category | File Extensions | Description |
+|----------|----------------|-------------|
+| :page_facing_up: **Documents** | `.txt`, `.doc`, `.docx`, `.pdf`, `.rtf`, `.odt`, `.xls`, `.xlsx`, `.ppt`, `.pptx`, `.csv` | Text documents, spreadsheets, presentations |
+| :framed_picture: **Images** | `.jpg`, `.jpeg`, `.png`, `.gif`, `.bmp`, `.tiff`, `.svg`, `.webp`, `.ico` | Pictures and graphics |
+| :movie_camera: **Videos** | `.mp4`, `.avi`, `.mkv`, `.mov`, `.wmv`, `.flv`, `.webm`, `.m4v` | Video files |
+| :musical_note: **Audio** | `.mp3`, `.wav`, `.flac`, `.aac`, `.ogg`, `.wma`, `.m4a` | Music and sound files |
+| :wrench: **Installers** | `.exe`, `.msi`, `.dmg`, `.pkg`, `.deb`, `.rpm` | Application installers |
+| :link: **Shortcuts** | `.lnk`, `.url` | Desktop shortcuts |
+| :file_folder: **Folders** | N/A | Any directory on the desktop |
+| :clipboard: **Other Files** | All others | Files that don't fit other categories |
 
-Python 3.6 or higher
-No additional packages required (uses built-in modules)
+🔧 Installation<br />
+Prerequisites<br />
 
-Setup
+- Python 3.6 or higher
+- No additional packages required (uses built-in modules)
 
-Download the script file
-Save it to your desired location (doesn't need to be on desktop)
+Setup<br />
+
+Clone or download the script
+bashgit clone https://github.com/yourusername/desktop-cleanup.git
+cd desktop-cleanup
+
 Run the script
+bashpython desktop_cleanup.py
 
 💻 Usage
 Basic Usage
