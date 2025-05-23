@@ -1,18 +1,18 @@
 # Desktop_Cleaner
 
-automatically organizes your cluttered desktop by categorizing and moving files into organized folders.
-🚀 Features
+automatically organizes your cluttered desktop by categorizing and moving files into organized folders.<br />
 
-Automatic file categorization - Sorts files by type (documents, images, videos, audio, etc.)
-Smart installer detection - Identifies and separates installer files from regular applications
-Folder organization - Moves desktop folders into a dedicated directory
-Duplicate handling - Automatically renames files if duplicates exist
-Cross-platform support - Works on Windows (OneDrive Desktop) and standard desktop locations
-Safe operation - Skips system files and the script itself
-Detailed logging - Shows exactly what's being moved where
+🚀 Features<br />
+Automatic file categorization - Sorts files by type (documents, images, videos, audio, etc.)<br />
+Smart installer detection - Identifies and separates installer files from regular applications<br />
+Folder organization - Moves desktop folders into a dedicated directory<br />
+Duplicate handling - Automatically renames files if duplicates exist<br />
+Cross-platform support - Works on Windows (OneDrive Desktop) and standard desktop locations<br />
+Safe operation - Skips system files and the script itself<br />
+Detailed logging - Shows exactly what's being moved where<br />
 
-📁 File Categories
-The script organizes files into the following categories:
+📁 File Categories<br />
+The script organizes files into the following categories:<br />
 CategoryFile TypesDocuments.txt, .doc, .docx, .pdf, .rtf, .odt, .xls, .xlsx, .ppt, .pptx, .csvImages.jpg, .jpeg, .png, .gif, .bmp, .tiff, .svg, .webp, .icoVideos.mp4, .avi, .mkv, .mov, .wmv, .flv, .webm, .m4vAudio.mp3, .wav, .flac, .aac, .ogg, .wma, .m4aInstallers.exe, .msi, .dmg, .pkg, .deb, .rpm (with installer keywords)Shortcuts.lnk, .urlFoldersAny directory on the desktopOther FilesEverything else that doesn't fit the above categories
 🔧 Installation
 Prerequisites
