@@ -64,7 +64,7 @@ After running, your desktop will contain a new organized folder:<br />
 # 🛡️ **Safety Features**<br />
 
 Skips the cleanup directory - Won't move the folder it creates<br />
-Skips the script itself - Won't move the cleanup script<br /><br />
+Skips the script itself - Won't move the cleanup script<br />
 Handles permissions errors - Gracefully handles files that can't be moved<br />
 Duplicate prevention - Automatically renames files to prevent overwrites<br />
 Non-destructive - Only moves files, never deletes them<br />
@@ -81,7 +81,7 @@ installer_keywords = [
     'visual studio', 'intellij', 'mcafee'
 ]
 ```
-📝 **Example Output**<br />
+# 📝 **Example Output**<br />
 Desktop path: C:\Users\YourName\OneDrive\Desktop
 
 Found 25 items on desktop:
@@ -122,22 +122,24 @@ All your desktop items are now organized in:<br />
 ├── 🔗 Shortcuts (.lnk files)<br />
 └── 📋 Other Files<br />
 
-🎉 Your desktop should now be completely clean!
-⚠️ Important Notes
+🎉 Your desktop should now be completely clean!<br />
 
-Backup recommended: While the script is safe, consider backing up important files first
-File permissions: Some files may be skipped if they're currently in use or lack permissions
-System files: The script avoids moving system files and shortcuts to critical applications
-Undo process: To restore files, simply move them back from the cleanup folder
+⚠️ Important Notes<br />
 
-#🐛 **Troubleshooting**<br />
+Backup recommended: While the script is safe, consider backing up important files first<br />
+File permissions: Some files may be skipped if they're currently in use or lack permissions<br />
+System files: The script avoids moving system files and shortcuts to critical applications<br />
+Undo process: To restore files, simply move them back from the cleanup folder<br />
+
+# **🐛 Troubleshooting**<br />
 Common Issues
-Desktop not found: If the script can't find your desktop, it will show an error. Make sure you're running it on a system with a standard desktop folder structure.
-Permission errors: Some files may be skipped due to permission issues. This is normal and safe - the script will continue with other files.
+Desktop not found: If the script can't find your desktop, it will show an error. Make sure you're running it on a system with a standard desktop folder structure.<br />
+Permission errors: Some files may be skipped due to permission issues. This is normal and safe - the script will continue with other files.<br />
 Files still on desktop: Check the output log to see if files were skipped and why.<br />
+Slow Runtime: The script might run slow and not show the results right away, refresh the screen and the results should match the results when running the script<br />
 
-#**🤝 Contributing**<br />
-Feel free to submit issues or suggestions for improvements. 
+# **🤝 Contributing**<br />
+Feel free to submit issues or suggestions for improvements.<br />
 
-#**📄 License**<br />
+# **📄 License**<br />
 This script is provided as-is for personal use. Feel free to modify and distribute as needed.
