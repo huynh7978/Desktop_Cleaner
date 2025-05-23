@@ -34,22 +34,22 @@ The script organizes files into the following categories:<br />
     git clone https://github.com/yourusername/Desktop-Cleaner.git
     cd Desktop-cleaner
     ```
-# 💻**Usage**
-**Basic Usage**
+# 💻**Usage**<br />
+**Basic Usage**<br />
 ```python/python3 desktop_cleanup.py```
-**How It Works**
+
+**How It Works**<br />
 
 Desktop Detection: Automatically finds your desktop location
 
-:white_check_mark: First tries OneDrive Desktop (~/OneDrive/Desktop)
-:white_check_mark: Falls back to regular Desktop (~/Desktop)
+:white_check_mark: First tries OneDrive Desktop (~/OneDrive/Desktop)<br />
+:white_check_mark: Falls back to regular Desktop (~/Desktop)<br />
 
+Cleanup Directory Creation: Creates a new folder called cleanup<br />
+File Processing: Scans and categorizes all desktop items<br />
+Progress Reporting: Shows real-time progress<br />
 
-Cleanup Directory Creation: Creates a new folder called cleanup
-File Processing: Scans and categorizes all desktop items
-Progress Reporting: Shows real-time progress
-
-📊 **Output Structure**
+📊 **Output Structure**<br />
 After running, your desktop will contain a new organized folder:<br />
 📁 C:\Users\YourName\OneDrive\Desktop\cleanup<br />
 ├── 🗂️  Folders (My Projects, etc.)<br />
@@ -130,14 +130,14 @@ File permissions: Some files may be skipped if they're currently in use or lack 
 System files: The script avoids moving system files and shortcuts to critical applications
 Undo process: To restore files, simply move them back from the cleanup folder
 
-#🐛 Troubleshooting
+#🐛 **Troubleshooting**<br />
 Common Issues
 Desktop not found: If the script can't find your desktop, it will show an error. Make sure you're running it on a system with a standard desktop folder structure.
 Permission errors: Some files may be skipped due to permission issues. This is normal and safe - the script will continue with other files.
 Files still on desktop: Check the output log to see if files were skipped and why.<br />
 
-#🤝 Contributing<br />
+#**🤝 Contributing**<br />
 Feel free to submit issues or suggestions for improvements. 
 
-#📄 License
+#**📄 License**<br />
 This script is provided as-is for personal use. Feel free to modify and distribute as needed.
