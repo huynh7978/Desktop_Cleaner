@@ -104,9 +104,9 @@ Processing: setup_steam.exe<br />
 Processing: My Projects<br />
   -> Moving folder to Folders: My Projects<br />
 
-==================================================
+================================================================================
 DESKTOP CLEANUP COMPLETED!
-==================================================
+================================================================================
 Total items processed: 4
 Items moved: 4
 Items skipped: 0
