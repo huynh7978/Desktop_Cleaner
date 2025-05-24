@@ -56,6 +56,10 @@ def is_installer(filename):
     # Check if filename contains installer keywords
     has_installer_keyword = any(keyword in filename_lower for keyword in installer_keywords)
     
+    # Special case: if it's a shortcut (.lnk) with installer keywords, treat as installer
+    if filename_lower.endswith('.lnk') and has_installer_keyword:
+        return True
+    
     return has_installer_ext and (has_installer_keyword or filename_lower.endswith('.exe') or filename_lower.endswith('.msi'))
 
 # Get all items on desktop
@@ -96,14 +100,14 @@ for item in file_list:
             
         # Handle files
         else:
-            # Check for shortcuts first
-            if item.lower().endswith(('.lnk', '.url')):
-                print(f"  -> Moving to Shortcuts: {item}")
-                destination = os.path.join(shortcuts_dir, item)
-            # Check if it's an installer
-            elif is_installer(item):
+            # Check if it's an installer (including installer shortcuts)
+            if is_installer(item):
                 print(f"  -> Moving to Installers: {item}")
                 destination = os.path.join(installers_dir, item)
+            # Check for regular shortcuts (non-installer shortcuts)
+            elif item.lower().endswith(('.lnk', '.url')):
+                print(f"  -> Moving to Shortcuts: {item}")
+                destination = os.path.join(shortcuts_dir, item)
             # Move files based on their extensions
             elif item.lower().endswith(('.txt', '.doc', '.docx', '.pdf', '.rtf', '.odt', '.xls', '.xlsx', '.ppt', '.pptx', '.csv')):
                 print(f"  -> Moving to Documents: {item}")
