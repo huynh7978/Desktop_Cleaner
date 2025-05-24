@@ -32,7 +32,7 @@ The script organizes files into the following categories:<br />
     Clone or download the script
     ```
     git clone https://github.com/yourusername/Desktop-Cleaner.git
-    cd Desktop-cleaner
+    cd Desktop-Cleaner
     ```
 # 💻**Usage**<br />
 **Basic Usage**<br />
@@ -41,14 +41,13 @@ The script organizes files into the following categories:<br />
 
 **How It Works**<br />
 
-Desktop Detection: Automatically finds your desktop location
+Desktop Detection: Automatically finds your desktop location<br />
 
-:white_check_mark: First tries OneDrive Desktop (~/OneDrive/Desktop)<br />
-:white_check_mark: Falls back to regular Desktop (~/Desktop)<br />
-
-Cleanup Directory Creation: Creates a new folder called cleanup<br />
-File Processing: Scans and categorizes all desktop items<br />
-Progress Reporting: Shows real-time progress<br />
+- First tries OneDrive Desktop (~/OneDrive/Desktop)<br />
+- Falls back to regular Desktop (~/Desktop)<br />
+- Cleanup Directory Creation: Creates a new folder called cleanup<br />
+- File Processing: Scans and categorizes all desktop items<br />
+- Progress Reporting: Shows real-time progress<br />
 
 📊 **Output Structure**<br />
 After running, your desktop will contain a new organized folder:<br />
