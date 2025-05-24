@@ -36,6 +36,7 @@ The script organizes files into the following categories:<br />
     ```
 # 💻**Usage**<br />
 **Basic Usage**<br />
+
 ```python/python3 desktop_cleanup.py```
 
 **How It Works**<br />
@@ -104,12 +105,12 @@ Processing: setup_steam.exe<br />
 Processing: My Projects<br />
   -> Moving folder to Folders: My Projects<br />
 
-================================================================================
-DESKTOP CLEANUP COMPLETED!
-================================================================================
-Total items processed: 4
-Items moved: 4
-Items skipped: 0
+==================================================<br />
+DESKTOP CLEANUP COMPLETED!<br />
+==================================================<br />
+Total items processed: 4 <br />
+Items moved: 4 <br />
+Items skipped: 0 <br />
 
 All your desktop items are now organized in:<br />
 📁 C:\Users\YourName\OneDrive\Desktop\cleanup<br />
