@@ -138,8 +138,5 @@ Permission errors: Some files may be skipped due to permission issues. This is n
 Files still on desktop: Check the output log to see if files were skipped and why.<br />
 Slow Runtime: The script might run slow and not show the results right away, refresh the screen and the results should match the results when running the script<br />
 
-# **🤝 Contributing**<br />
-Feel free to submit issues or suggestions for improvements.<br />
-
 # **📄 License**<br />
-This script is provided as-is for personal use. Feel free to modify and distribute as needed.
+This project is open source and available under the MIT License.
