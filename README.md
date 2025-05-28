@@ -132,7 +132,7 @@ System files: The script avoids moving system files and shortcuts to critical ap
 Undo process: To restore files, simply move them back from the cleanup folder<br />
 
 # **🐛 Troubleshooting**<br />
-Common Issues
+**Common Issues**
 Desktop not found: If the script can't find your desktop, it will show an error. Make sure you're running it on a system with a standard desktop folder structure.<br />
 Permission errors: Some files may be skipped due to permission issues. This is normal and safe - the script will continue with other files.<br />
 Files still on desktop: Check the output log to see if files were skipped and why.<br />
